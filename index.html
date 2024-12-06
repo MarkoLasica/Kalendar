@@ -27,7 +27,7 @@
     }
 
     .calendar-container {
-      width: 90%;
+      width: 95%;
       max-width: 1200px;
       background: #ffffff;
       border-radius: 10px;
@@ -119,10 +119,12 @@
     @media (max-width: 480px) {
       .calendar {
         grid-template-columns: 1fr; /* Jedna kolona za veoma male ekrane */
+        gap: 15px; /* Veći razmak između ćelija */
       }
 
       .day {
         min-height: 200px;
+        padding: 15px;
       }
 
       h1 {
